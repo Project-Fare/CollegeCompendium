@@ -50,13 +50,74 @@ const HomePage = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="w-full mx-auto mt-8 sm:mt-16 text-center md:w-10/12 bg-gradient-to-r from-fuchsia-400  to-blue-500 rounded-lg">
+				<div className="w-full mx-auto mt-8 sm:mt-16 text-center md:w-10/12 bg-gradient-to-r from-fuchsia-400  to-blue-500 rounded-lg relative flex justify-center items-center">
 					<img
 						src="https://user-images.githubusercontent.com/47064842/121788823-80234b00-cb9e-11eb-82c0-927759e0dba6.png"
 						// src="https://user-images.githubusercontent.com/47064842/121788773-04290300-cb9e-11eb-8e5e-95fa321e18db.png"
 						alt="Hero"
-						className="w-full h-64 rounded-lg sm:h-auto  shadow-2xl object-cover object-center-top opacity-70"
+						className="w-full max-h-96 rounded-lg sm:h-auto shadow-2xl object-cover object-center-top opacity-70"
 					/>
+					<div className="grid grid-cols-2 gap-10 text-center lg:grid-cols-3 filter grayscale brightness-50 invert saturate-200 drop-shadow-lg contrast-125 absolute px-5">
+						<div className="flex items-center justify-center">
+							<img
+								src={CarnegieLogo}
+								alt="Carnegie Mellon"
+								className="block object-contain h-12"
+							/>
+						</div>
+						<div className="flex items-center justify-center">
+							<img
+								src={MITLogo}
+								alt="MIT"
+								className="block object-contain h-12"
+							/>
+						</div>
+
+						<div className="flex items-center justify-center">
+							<img
+								src={HarvardLogo}
+								alt="Harvard"
+								className="block object-contain h-12"
+							/>
+						</div>
+						<div className="flex items-center justify-center">
+							<img
+								src={StanfordLogo}
+								alt="Stanford"
+								className="block object-contain h-12"
+							/>
+						</div>
+
+						<div className="flex items-center justify-center">
+							<img
+								src={CalTechLogo}
+								alt="Cal Tech"
+								className="block object-contain h-12"
+							/>
+						</div>
+						<div className="flex items-center justify-center">
+							<img
+								src={PennLogo}
+								alt="Penn"
+								className="block object-contain h-12"
+							/>
+						</div>
+
+						<div className="flex items-center justify-center">
+							<img
+								src={BerkeleyLogo}
+								alt="Berkeley"
+								className="block object-contain h-12"
+							/>
+						</div>
+						<div className="flex items-center justify-center">
+							<img
+								src={DartmouthLogo}
+								alt="Dartmouth"
+								className="block object-contain h-12"
+							/>
+						</div>
+					</div>
 				</div>
 			</section>
 
